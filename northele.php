@@ -9,7 +9,6 @@ date_default_timezone_set('Asia/Shanghai');
  */
 class North_Ele{
 
-    private $getTokenUrl = 'http://xxx.com/getcry.php?id=';
     private $loginUrl = "http://10.136.2.5/jnuweb/WebService/JNUService.asmx/Login";
     private $balanceUrl = "http://10.136.2.5/jnuweb/WebService/JNUService.asmx/GetAccountBalance";
     private $dataUrl = 'http://10.136.2.5/jnuweb/WebService/JNUService.asmx/GetCustomerMetricalData';
